@@ -1,0 +1,12 @@
+.segundoGrid{
+    display: grid;
+    grid-template-columns:40% 60%;
+    grid-template-rows:auto;
+    grid-template-areas:"rellenoPrincipal Imagen";
+}
+.rellenoPrincipal{grid-area: rellenoPrincipal;
+display: flex;
+align-items: center;
+font-size: 50px;
+color: antiquewhite;
+font-family: GloomyThings;}

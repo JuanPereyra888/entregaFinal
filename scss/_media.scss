@@ -1,0 +1,36 @@
+@media screen and(max-width:1024px) {
+    .primerGrid{
+        background-color: bisque;
+        display: grid;
+        grid-template-columns: 100%;
+        grid-template-rows: auto;
+        grid-template-areas:
+        "titulo" 
+        "relleno" ;
+    }
+    .titulo{grid-area: titulo;
+    color: rgb(36, 39, 39);
+    display: flex;
+    flex-wrap: wrap;}
+    .relleno{grid-area: relleno;}
+}
+@media screen and(max-width:1024px) {
+.segundoGrid{
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: auto;
+    grid-template-areas: 
+    "rellenoPrincipal"
+    "imagen";
+}
+.rellenoPrincipal{
+    font-size: 40px;
+    padding: 10px;
+}
+.imagen{
+    display: flex;
+    justify-content: center;
+    height: 400px;
+    width: auto;
+}
+}

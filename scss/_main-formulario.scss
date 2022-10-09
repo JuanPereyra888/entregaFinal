@@ -1,0 +1,14 @@
+.main-formulario{
+    background-image: url(../assets/img/fondo-recomendaciones.jpg);
+    height: 100%;
+    display: flex;
+    align-items: center;
+h1{
+    color: black;
+    font-family: GloomyThings;
+    font-size: 40px;
+    &:hover{
+        color: rgb(99, 17, 99);
+    }
+}
+}

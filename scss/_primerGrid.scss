@@ -1,0 +1,21 @@
+.primerGrid{
+    background-image: url(../assets/img/abstract-extruded-voronoi-blocks-background-minimal-light-clean-corporate-wall-3d-geometric-surface-illustration-polygonal-elements-displacement.jpg);
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: auto;
+    grid-template-areas:
+    "titulo" 
+    "relleno" ;
+}
+.titulo{grid-area: titulo;
+color:black;
+display: flex;
+justify-content: center;
+align-items: center;
+font-family: coutore;}
+.relleno{grid-area: relleno;
+color: rgb(14, 14, 14);
+display: flex;
+justify-content: center;
+align-items: center;
+font-family: NugiaVintage;}

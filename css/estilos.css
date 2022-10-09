@@ -1,0 +1,141 @@
+@font-face {
+  font-family: GloomyThings;
+  src: url(../assets/tipografia/GloomyThings.ttf); }
+
+@font-face {
+  font-family: coutore;
+  src: url(../assets/tipografia/coutore.otf); }
+
+@font-face {
+  header {
+    font-family: NugiaVintage;
+    src: url(../assets/tipografia/NugiaVintage.ttf); } }
+
+.main-index {
+  background-image: url(../assets/img/fondo-main.jpg);
+  background-size: cover;
+  min-height: 500px; }
+  .main-index h1 {
+    font-family: GloomyThings;
+    font-size: 100px;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    padding: 30px;
+    color: aliceblue; }
+  .main-index p {
+    font-family: coutore;
+    font-size: x-large;
+    display: flex;
+    align-items: center;
+    padding-top: 100px;
+    color: #fafa00; }
+
+.main-contacto {
+  background-image: url(../assets/img/fondo-contacto.jpg);
+  height: 100%;
+  display: flex;
+  align-content: center; }
+  .main-contacto h1 {
+    font-family: NugiaVintage;
+    font-size: 40px;
+    color: black;
+    padding-top: 20px; }
+
+.main-formulario {
+  background-image: url(../assets/img/fondo-recomendaciones.jpg);
+  height: 100%;
+  display: flex;
+  align-items: center; }
+  .main-formulario h1 {
+    color: black;
+    font-family: GloomyThings;
+    font-size: 40px; }
+    .main-formulario h1:hover {
+      color: #631163; }
+
+.main-recomendaciones {
+  background-image: url(../assets/img/fondo-receomendaciones2.jpg); }
+
+.main-nosotros {
+  background-image: url(../assets/img/fondoNosotros.jpg); }
+
+.primerGrid {
+  background-image: url(../assets/img/abstract-extruded-voronoi-blocks-background-minimal-light-clean-corporate-wall-3d-geometric-surface-illustration-polygonal-elements-displacement.jpg);
+  display: grid;
+  grid-template-columns: 100%;
+  grid-template-rows: auto;
+  grid-template-areas: "titulo"  "relleno"; }
+
+.titulo {
+  grid-area: titulo;
+  color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: coutore; }
+
+.relleno {
+  grid-area: relleno;
+  color: #0e0e0e;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: NugiaVintage; }
+
+.segundoGrid {
+  display: grid;
+  grid-template-columns: 40% 60%;
+  grid-template-rows: auto;
+  grid-template-areas: "rellenoPrincipal Imagen"; }
+
+.rellenoPrincipal {
+  grid-area: rellenoPrincipal;
+  display: flex;
+  align-items: center;
+  font-size: 50px;
+  color: antiquewhite;
+  font-family: GloomyThings; }
+
+@media screen and (max-width: 1024px) {
+  .primerGrid {
+    background-color: bisque;
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: auto;
+    grid-template-areas: "titulo"  "relleno"; }
+  .titulo {
+    grid-area: titulo;
+    color: #242727;
+    display: flex;
+    flex-wrap: wrap; }
+  .relleno {
+    grid-area: relleno; } }
+
+@media screen and (max-width: 1024px) {
+  .segundoGrid {
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: auto;
+    grid-template-areas: "rellenoPrincipal" "imagen"; }
+  .rellenoPrincipal {
+    font-size: 40px;
+    padding: 10px; }
+  .imagen {
+    display: flex;
+    justify-content: center;
+    height: 400px;
+    width: auto; } }
+
+footer {
+  display: flex;
+  justify-content: space-evenly;
+  background-color: #cfcaca;
+  height: 100%; }
+
+.navbar {
+  box-shadow: 2px 2px 5px #000;
+  opacity: .9; }
+  .navbar .nav-item .nav-link {
+    color: #768383;
+    font-family: coutore; }

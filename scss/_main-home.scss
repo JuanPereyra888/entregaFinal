@@ -1,0 +1,22 @@
+.main-index{
+    background-image: url(../assets/img/fondo-main.jpg);
+    background-size: cover;
+    min-height: 500px;
+    h1{
+        font-family: GloomyThings;
+        font-size: 100px;
+        display: flex;
+        justify-content:center;
+        align-self: center;
+        padding: 30px;
+        color: aliceblue;
+    }
+    p{
+        font-family: coutore;
+        font-size: x-large;
+        display: flex;
+        align-items: center;
+        padding-top: 100px;
+        color: rgb(250, 250, 0);
+    }
+}
